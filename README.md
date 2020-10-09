@@ -1,3 +1,9 @@
+instalacion gatsby
+# npm i -g gatsby-cli
+
+crear proyecto nuevo
+# gatsby new <nombre_proyecto>
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
