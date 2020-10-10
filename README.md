@@ -4,6 +4,20 @@ instalacion gatsby
 crear proyecto nuevo
 # gatsby new <nombre_proyecto>
 
+style components ->
+# npm i @emotion/core @emotion/styled gatsby-plugin-emotion 
+
+normalize
+#  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+
+# google fonts
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"></link>
+
+# plugin strapi
+# npm install --save gatsby-source-strapi
+
+# npm i gatsby-background-image
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
