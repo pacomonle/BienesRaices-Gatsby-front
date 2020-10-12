@@ -1,5 +1,6 @@
 import { css } from '@emotion/core'
-import { graphql, Link, useStaticQuery } from 'gatsby'
+// import { graphql,  useStaticQuery } from 'gatsby'
+import { Link } from 'gatsby'
 import React from 'react'
 import Navegacion from './Navegacion'
 
@@ -40,9 +41,10 @@ const Header = () => {
             
                 <Link to='/'>
                 {/**
-                  <img src={logo.publicURL} alt="logo Bienes Raices" />
+                     <img src={logo.publicURL} alt="logo Bienes Raices" />
                 */}
-                    <img src='/static/ab002b2e1f1518dbb875b266e92b8f34/logo.svg' alt="logo Bienes Raices" />  
+                     
+                     <img src='/logo.svg' alt="logo Bienes Raices" />
                 </Link>
                 <Navegacion />
             </div>

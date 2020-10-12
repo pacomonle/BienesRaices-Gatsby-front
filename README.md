@@ -18,6 +18,9 @@ normalize
 
 # npm i gatsby-background-image
 
+# libreria para el slug
+# npm i url-slug
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
