@@ -44,7 +44,7 @@ const usePropiedades = () => {
         habitaciones: propiedad.habitaciones,
         agentes: propiedad.agentes,
         precio: propiedad.precio,
-        categoria: propiedad.categoria
+        categorias: propiedad.categorias
     }))
 }
 

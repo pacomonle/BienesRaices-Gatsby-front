@@ -36,12 +36,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     }
 
     // Si hay resultados generar los archivos estaticos
-  // const paginas = resultado.data.allStrapiPaginas.nodes;
+    const paginas = resultado.data.allStrapiPaginas.nodes;
     const propiedades = resultado.data.allStrapiPropiedades.nodes;
-    console.log(propiedades)
+     console.log('prop', propiedades)
+     console.log('pag', paginas)
 
     // crear los templates para paginas
-    /* paginas.forEach( pagina => {
+    paginas.forEach( pagina => {
         actions.createPage({
             path: urlSlug( pagina.nombre ),
             component: require.resolve('./src/components/paginas.js'),
@@ -49,7 +50,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
                 id: pagina.id
             }
         })
-    } ) */
+    } ) 
 
     // Crear los templates de propiedades
     propiedades.forEach( propiedad => {
